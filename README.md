@@ -54,8 +54,9 @@ source venv/bin/activate # On Windows: venv\Scripts\activate
 
 4. Set up Environment Variables
 
-```bash
    Create a .env file in the root directory and add your Gemini API key:
+
+```bash
    GOOGLE_API_KEY=your_actual_key_here
 ```
 
