@@ -1,0 +1,41 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore ChromaDB local vectorstore files
+chroma_store/
+*.db
+
+# Ignore temporary PDF files
+*.pdf
+*.tmp
+*.log
+
+# Ignore Jupyter and Streamlit metadata
+.ipynb_checkpoints/
+.streamlit/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.so
+*.dll
+*.exe
+*.out
+
+# Ignore VSCode and IDE configs
+.vscode/
+.idea/
