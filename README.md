@@ -41,18 +41,26 @@ cd rag-chatbot-gemini
 
 2. Create a Virtual Environment
 
+```bash
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
+```
 
 3. Install Dependencies
 
+```bash
    pip install -r requirements.txt
+```
 
 4. Set up Environment Variables
 
+```bash
    Create a .env file in the root directory and add your Gemini API key:
    GOOGLE_API_KEY=your_actual_key_here
+```
 
 5. ▶️ Running the App
 
+```bash
    streamlit run index.py
+```
